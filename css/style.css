@@ -86,7 +86,7 @@ ul{
    text-align: center;
 }
 
-h1, .p-intro, .apri-discord, .container-start-menu li a, .tecnologia .scarica-per-mac{
+h1, .p-intro, .apri-discord, .container-start-menu li a, .tecnologia .scarica-per-mac, .menu-voci .lista{
    color: white;
 }
 
@@ -265,7 +265,7 @@ h1{
    margin: 0 150px 50px 150px;
 }
 
-h3{
+h4{
    font-size: 27px;
    text-align: center;
    padding: 40px;
@@ -309,4 +309,100 @@ h3{
 
 
 
+
+
+
+
+
+ /* INIZIO Footer */
+
+/* INIZIO Sezione Menu Voci */
+.menu-voci{
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(35, 39, 42);
+   height: 600px;
+   border-bottom: 2px solid grey;
+ }
  
+ .menu-voci .container{
+   width: 1400px;
+   height: 500px;
+ }
+ 
+ ul{
+   justify-content: space-between;
+ }
+ 
+ li{
+   list-style: none;
+ }
+ 
+ .menu-social{
+   width: 400px;
+   height: 500px;
+ }
+ 
+ .titolo-lista{
+   width: 250px;
+   height: 500px;
+ }
+
+ h3, h5{
+   color: rgb(113, 132, 194);
+}
+
+ h3{
+   font-size: 35px;
+   margin: 50px 140px 30px 0;
+ }
+
+ .img-ita{
+   width: 30px;
+   vertical-align: middle;
+ }
+
+ .select-language{
+   color: white;
+   font-size: 17px;
+   vertical-align: middle;
+ }
+
+h5{
+   font-size: 20px;
+   margin: 55px 0 7px 0;
+}
+
+.lista{
+   line-height: 240%;
+   font-weight: 600;
+}
+/* FINE Sezione Menu Voci */
+ 
+
+/* INIZIO Seconda Sezione */
+ 
+ .menu-finale-btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(53, 53, 53);
+   height: 100px;
+ }
+ 
+ .container-menu-finale{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(57, 238, 184);
+   width: 1400px;
+   height: 70px;
+ }
+ 
+ .logo-finale, .btn-finale{
+   background-color: rgb(230, 134, 174);
+   padding: 5px;
+ }
+ /* FINE Seconda Sezione */
+ 
+ /* FINE Footer */
