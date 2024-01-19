@@ -1,1 +1,3 @@
-# htmlcss-discord
+Pagina Discord
+=== 
+Settimo Es di Boolean

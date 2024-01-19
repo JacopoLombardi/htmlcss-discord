@@ -1,0 +1,141 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+ }
+ 
+body{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flex{
+   display: flex;
+}
+
+
+
+ /* INIZIO Header */
+.start-menu{
+   justify-content: center;
+   align-items: center;
+   height: 150px;
+   background-color: rgb(49, 97, 224)
+}
+
+.start-menu .container-start-menu{
+   width: 1400px;
+   height: 30px;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+.logo, .btn{
+   align-items: center;
+ }
+ 
+.logo{
+   width: 200px;
+}
+
+ul{
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   height: 30px;
+ }
+ 
+.container-start-menu nav ul li a{
+   color: white;
+   text-decoration: none;
+}
+
+.container-start-menu nav ul li{
+   display: flex;
+   flex-wrap: wrap;
+   font-size: 18px;
+   font-weight: 700;
+   list-style: none;
+   display: inline-block;
+   padding: 0 30px;
+ }
+ 
+.container-start-menu .btn{
+   width: 100px;
+   padding: 15px;
+   border: none;
+   border-radius: 30px;
+   font-weight: 600;
+   font-size: 16px;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+ }
+
+.jumbotron{
+   justify-content: center;
+   align-items: center;
+   height: 600px;
+   background-image: url(../img/jumbo.png);
+   background-size: cover;
+}
+ 
+.intro{
+   width: 900px;
+   height: 500px;
+   text-align: center;
+}
+
+h1, .p-intro{
+   color: white;
+}
+
+h1{
+   font-size: 65px;
+   font-weight: 650;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.p-intro{
+   font-size: 21px;
+   font-weight: 600;
+}
+
+.btn-intro{
+   justify-content: center;
+}
+
+.scarica-su-mac::before{
+   content: '\1F817';
+}
+
+.btn-intro .apri-discord{
+   color: white;
+   background-color: rgb(39, 39, 39);
+   margin-left: 30px;
+}
+
+.btn-intro .apri-discord, .btn-intro .scarica-su-mac{
+   font-size: 18px;
+   font-weight: 700;
+   border-radius: 30px;
+   border: none;
+   margin-top: 40px;
+   padding: 18px 30px 20px 30px;
+}
+
+/* INIZIO Hover dei Pulsanti*/
+.container-start-menu .btn:hover, .scarica-su-mac:hover{
+   background-color: rgb(221, 221, 221);
+}
+
+.apri-discord:hover{
+   background-color: rgb(56, 56, 56);
+}
+/* FINE Hover dei Pulsanti*/
+
+ /* FINE Header */
+
+
+
