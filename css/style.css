@@ -16,7 +16,9 @@ body{
    max-width: 100%;
 }
 
-
+.container{
+   margin: 0 30px;
+}
 
  /* INIZIO Header */
 .start-menu{
@@ -26,7 +28,7 @@ body{
    background-color: rgb(49, 97, 224)
 }
 
-.start-menu .container-start-menu{
+.start-menu .container{
    width: 1400px;
    height: 30px;
    justify-content: center;
@@ -42,18 +44,18 @@ body{
    width: 200px;
 }
 
-ul{
+nav ul{
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
    height: 30px;
  }
  
-.container-start-menu li a{
+.start-menu .container li a{
    text-decoration: none;
 }
 
-.container-start-menu nav ul li{
+.container nav ul li{
    display: flex;
    flex-wrap: wrap;
    font-size: 18px;
@@ -63,7 +65,7 @@ ul{
    padding: 0 30px;
  }
  
-.container-start-menu .login{
+.container .login{
    width: 100px;
    padding: 15px;
    font-size: 16px;
@@ -86,7 +88,8 @@ ul{
    text-align: center;
 }
 
-h1, .p-intro, .apri-discord, .container-start-menu li a, .tecnologia .scarica-per-mac, .menu-voci .lista{
+h1, .p-intro, .apri-discord, .container li a, .tecnologia .scarica-per-mac, 
+.menu-voci .lista{
    color: white;
 }
 
@@ -106,8 +109,8 @@ h1{
    justify-content: center;
 }
 
-.scarica-per-mac::before{
-   content: '\1F817';
+.btn-jumbo .scarica-per-mac{
+   background-color: white;
 }
 
 .btn-jumbo .apri-discord{
@@ -126,6 +129,8 @@ h1{
 
 
 
+
+
  /* INIZIO Main */
 
 .h2-main{
@@ -137,7 +142,6 @@ h1{
    font-weight: 600;
    line-height: 160%;
 }
-
 
 
 /* INIZIO Sezione Luogo */
@@ -282,7 +286,7 @@ h4{
 
 
 /* INIZIO Hover dei Pulsanti + Setup in comune*/
-.container-start-menu .btn:hover, .jumbotron .scarica-per-mac:hover{
+.start-menu .btn:hover, .jumbotron .scarica-per-mac:hover{
    background-color: rgb(221, 221, 221);
 }
 
@@ -299,6 +303,10 @@ h4{
    border: none;
    font-weight: 700;
 }
+
+.fa-solid{
+   margin-right: 10px;
+}
 /* FINE Hover dei Pulsanti + Setup in comune*/
 
 
@@ -311,18 +319,17 @@ h4{
 
 
 
-
-
-
  /* INIZIO Footer */
+
+footer{
+   background-color: rgb(35, 39, 42);
+}
 
 /* INIZIO Sezione Menu Voci */
 .menu-voci{
    justify-content: center;
    align-items: center;
-   background-color: rgb(35, 39, 42);
    height: 600px;
-   border-bottom: 2px solid grey;
  }
  
  .menu-voci .container{
@@ -342,7 +349,17 @@ h4{
    width: 400px;
    height: 500px;
  }
+
+ .social{
+   color: white;
+   font-size: 25px;
+   margin-top: 20px;
+ }
  
+.social .fa-brands{
+   margin-right: 25px;
+}
+
  .titolo-lista{
    width: 250px;
    height: 500px;
@@ -380,29 +397,40 @@ h5{
 /* FINE Sezione Menu Voci */
  
 
-/* INIZIO Seconda Sezione */
+/* INIZIO Sezione Menu Finale*/
  
- .menu-finale-btn{
-   display: flex;
+.menu-finale{
    justify-content: center;
    align-items: center;
-   background-color: rgb(53, 53, 53);
    height: 100px;
  }
  
- .container-menu-finale{
-   display: flex;
+.menu-finale .container{
    justify-content: space-between;
    align-items: center;
-   background-color: rgb(57, 238, 184);
    width: 1400px;
    height: 70px;
  }
  
- .logo-finale, .btn-finale{
-   background-color: rgb(230, 134, 174);
-   padding: 5px;
+.row{
+   border: 1px solid rgb(113, 132, 194);
+   margin: 0 160px;
+}
+
+.logo-finale{
+   width: 150px;
  }
- /* FINE Seconda Sezione */
+
+.btn-registrati{
+   color: white;
+   padding: 10px 15px;
+   background-color: rgb(142, 161, 225);
+ }
+
+.lista a{
+   color: white;
+   text-decoration: none; 
+}
+ /* FINE Sezione Menu Finale */
  
  /* FINE Footer */
