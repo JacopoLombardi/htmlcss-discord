@@ -20,6 +20,16 @@ body{
    margin: 0 30px;
 }
 
+a{
+   color: white;
+   text-decoration: none; 
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+
  /* INIZIO Header */
 .start-menu{
    justify-content: center;
@@ -50,10 +60,6 @@ nav ul{
    flex-wrap: wrap;
    height: 30px;
  }
- 
-.start-menu .container li a{
-   text-decoration: none;
-}
 
 .container nav ul li{
    display: flex;
@@ -431,11 +437,6 @@ h5{
    padding: 10px 15px;
    background-color: rgb(142, 161, 225);
  }
-
-.lista a{
-   color: white;
-   text-decoration: none; 
-}
  /* FINE Sezione Menu Finale */
  
  /* FINE Footer */
