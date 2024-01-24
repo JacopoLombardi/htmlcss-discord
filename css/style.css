@@ -44,13 +44,13 @@ a:hover{
 .start-menu{
    justify-content: center;
    align-items: center;
-   height: 150px;
+   height: auto;
    background-color: rgb(49, 97, 224)
 }
 
 .start-menu .container{
    width: 1400px;
-   height: 30px;
+   height: 150px;
    justify-content: center;
    align-items: center;
    justify-content: space-between;
@@ -68,7 +68,7 @@ nav ul{
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
-   height: 30px;
+   height: auto;
  }
 
 .container nav ul li{
@@ -105,7 +105,8 @@ nav ul{
    text-align: center;
 }
 
-h1, .p-intro, 
+h1, 
+.p-intro, 
 .apri-discord, 
 .container li a, 
 .tecnologia .scarica-per-mac, 
@@ -174,7 +175,7 @@ h1{
  .luogo .container{
    justify-content: center;
    width: 1400px;
-   height: 800px;
+   height: auto;
  }
  
  .img-luogo{
@@ -207,7 +208,7 @@ h1{
    justify-content: center;
    flex-direction: row-reverse;
    width: 1400px;
-   height: 800px;
+   height: auto;
  }
  
  .img-trovarsi{
@@ -238,7 +239,7 @@ h1{
  .fandom .container{
    justify-content: center;
    width: 1400px;
-   height: 800px;
+   height: auto;
  }
  
  .img-fandom{
@@ -273,7 +274,7 @@ h1{
    justify-content: center;
    align-items: center;
    width: 1400px;
-   height: 800px;
+   height: auto;
  }
 
 .img-tecnologia{
@@ -351,12 +352,12 @@ footer{
 .menu-voci{
    justify-content: center;
    align-items: center;
-   height: 600px;
+   height: auto;
  }
  
  .menu-voci .container{
    width: 1400px;
-   height: 500px;
+   height: auto;
  }
  
  ul{
@@ -388,7 +389,7 @@ footer{
 
  .titolo-lista{
    width: 250px;
-   height: 500px;
+   height: auto;
  }
 
  h3, h5{
